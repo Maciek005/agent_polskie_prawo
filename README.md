@@ -53,11 +53,10 @@ law_agents_pl/
 ├── My_RAG_excel.py         # main agent: dual retrievers + case generation tool + LangGraph loop
 ├── Kodeks_cywilny.pdf      # source: Polish Civil Code
 ├── kazusy_rozwiazania.pdf  # merged corpus of real exam/competition case studies
-├── kazusy_baza/            # individual source case-study PDFs + merge script
-│   └── pdf_merger.py       # combines the individual PDFs above into kazusy_rozwiazania.pdf
+├── pdf_merger.py           # combines the individual case-study PDFs below into kazusy_rozwiazania.pdf
+├── Kazus*.pdf              # individual source case-study PDFs used by pdf_merger.py
 ├── prompty.txt             # reference copy of the agent's system prompt
 ├── requirements.txt
-└── .gitignore
 ```
 
 ## Setup
